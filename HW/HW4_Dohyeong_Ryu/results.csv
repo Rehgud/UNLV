@@ -1,0 +1,7 @@
+USPS 5-fold CV,NN (Accuracy),CNN (Accuracy)
+Experiment 1,0.9785,0.9833
+Experiment 2,0.9769,0.9860
+Experiment 3,0.9790,0.9855
+Experiment 4,0.9731,0.9833
+Experiment 5,0.9715,0.9844
+Average,0.9758 ± 0.0030,0.9845 ± 0.0011

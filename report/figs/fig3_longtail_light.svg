@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Helvetica,Arial,sans-serif">
+<rect width="640" height="360" fill="#ffffff"/>
+<text x="320.0" y="22" text-anchor="middle" font-size="14" font-weight="700" fill="#222">C-HMCNN: Macro-F1 by class training-count (long tail)</text>
+<line x1="50" y1="300.0" x2="620" y2="300.0" stroke="#eee"/>
+<text x="44" y="303.0" text-anchor="end" font-size="9" fill="#888">0.0</text>
+<line x1="50" y1="248.0" x2="620" y2="248.0" stroke="#eee"/>
+<text x="44" y="251.0" text-anchor="end" font-size="9" fill="#888">0.2</text>
+<line x1="50" y1="196.0" x2="620" y2="196.0" stroke="#eee"/>
+<text x="44" y="199.0" text-anchor="end" font-size="9" fill="#888">0.4</text>
+<line x1="50" y1="144.0" x2="620" y2="144.0" stroke="#eee"/>
+<text x="44" y="147.0" text-anchor="end" font-size="9" fill="#888">0.6</text>
+<line x1="50" y1="92.0" x2="620" y2="92.0" stroke="#eee"/>
+<text x="44" y="95.0" text-anchor="end" font-size="9" fill="#888">0.8</text>
+<line x1="50" y1="40.0" x2="620" y2="40.0" stroke="#eee"/>
+<text x="44" y="43.0" text-anchor="end" font-size="9" fill="#888">1.0</text>
+<text x="50.0" y="316" text-anchor="middle" font-size="9" fill="#333">1-2</text>
+<text x="131.4" y="316" text-anchor="middle" font-size="9" fill="#333">3-5</text>
+<text x="212.9" y="316" text-anchor="middle" font-size="9" fill="#333">6-10</text>
+<text x="294.3" y="316" text-anchor="middle" font-size="9" fill="#333">11-20</text>
+<text x="375.7" y="316" text-anchor="middle" font-size="9" fill="#333">21-50</text>
+<text x="457.1" y="316" text-anchor="middle" font-size="9" fill="#333">51-100</text>
+<text x="538.6" y="316" text-anchor="middle" font-size="9" fill="#333">101-500</text>
+<text x="620.0" y="316" text-anchor="middle" font-size="9" fill="#333">501+</text>
+<text x="320" y="336" text-anchor="middle" font-size="10" fill="#555">training samples per class</text>
+<polyline points="620.0,56.6" fill="none" stroke="#1f77b4" stroke-width="2"/>
+<circle cx="620.0" cy="56.6" r="3" fill="#1f77b4"/>
+<polyline points="294.3,170.0 375.7,150.5 457.1,40.0 538.6,118.5 620.0,73.0" fill="none" stroke="#2e7d5b" stroke-width="2"/>
+<circle cx="294.3" cy="170.0" r="3" fill="#2e7d5b"/>
+<circle cx="375.7" cy="150.5" r="3" fill="#2e7d5b"/>
+<circle cx="457.1" cy="40.0" r="3" fill="#2e7d5b"/>
+<circle cx="538.6" cy="118.5" r="3" fill="#2e7d5b"/>
+<circle cx="620.0" cy="73.0" r="3" fill="#2e7d5b"/>
+<polyline points="212.9,105.0 294.3,192.1 375.7,133.3 457.1,122.9 538.6,108.9 620.0,72.5" fill="none" stroke="#e08e0b" stroke-width="2"/>
+<circle cx="212.9" cy="105.0" r="3" fill="#e08e0b"/>
+<circle cx="294.3" cy="192.1" r="3" fill="#e08e0b"/>
+<circle cx="375.7" cy="133.3" r="3" fill="#e08e0b"/>
+<circle cx="457.1" cy="122.9" r="3" fill="#e08e0b"/>
+<circle cx="538.6" cy="108.9" r="3" fill="#e08e0b"/>
+<circle cx="620.0" cy="72.5" r="3" fill="#e08e0b"/>
+<polyline points="50.0,300.0 131.4,300.0 212.9,281.0 294.3,257.1 375.7,190.0 457.1,138.8 538.6,102.9 620.0,77.4" fill="none" stroke="#c0392b" stroke-width="2"/>
+<circle cx="50.0" cy="300.0" r="3" fill="#c0392b"/>
+<circle cx="131.4" cy="300.0" r="3" fill="#c0392b"/>
+<circle cx="212.9" cy="281.0" r="3" fill="#c0392b"/>
+<circle cx="294.3" cy="257.1" r="3" fill="#c0392b"/>
+<circle cx="375.7" cy="190.0" r="3" fill="#c0392b"/>
+<circle cx="457.1" cy="138.8" r="3" fill="#c0392b"/>
+<circle cx="538.6" cy="102.9" r="3" fill="#c0392b"/>
+<circle cx="620.0" cy="77.4" r="3" fill="#c0392b"/>
+<rect x="70" y="342" width="12" height="12" fill="#1f77b4"/>
+<text x="86" y="352" font-size="10" fill="#333">L1</text>
+<rect x="140" y="342" width="12" height="12" fill="#2e7d5b"/>
+<text x="156" y="352" font-size="10" fill="#333">L2</text>
+<rect x="210" y="342" width="12" height="12" fill="#e08e0b"/>
+<text x="226" y="352" font-size="10" fill="#333">L3</text>
+<rect x="280" y="342" width="12" height="12" fill="#c0392b"/>
+<text x="296" y="352" font-size="10" fill="#333">L4</text>
+</svg>

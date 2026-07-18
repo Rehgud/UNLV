@@ -1,0 +1,9 @@
+nohup: ignoring input
+[device] cuda | nodes=2149 | level sizes=[7, 67, 211, 1864] | train=147395 test=5321
+[pos_weight] on (cap=50.0) | 평균=49.6 최대=50.0
+ep   10/300 loss=0.0223 (0.6m) | test microF1 L1=0.948 L2=0.902 L3=0.862 L4=0.677
+ep   20/300 loss=0.0223 (1.2m) | test microF1 L1=0.942 L2=0.899 L3=0.864 L4=0.662
+ep   30/300 loss=0.0221 (1.8m) | test microF1 L1=0.948 L2=0.906 L3=0.872 L4=0.683
+ep   40/300 loss=0.0222 (2.4m) | test microF1 L1=0.947 L2=0.902 L3=0.861 L4=0.663
+ep   50/300 loss=0.0221 (3.0m) | test microF1 L1=0.951 L2=0.903 L3=0.857 L4=0.655
+ep   60/300 loss=0.0221 (3.6m) | test microF1 L1=0.953 L2=0.916 L3=0.881 L4=0.693

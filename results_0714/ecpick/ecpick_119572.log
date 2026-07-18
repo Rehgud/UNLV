@@ -1,0 +1,247 @@
+[node] gpu001  [gpu] 0  [pwd] /home/sp00002/DOHYEONG/rebelx/ecpick
+NVIDIA A30, 24576 MiB
+NVIDIA A30, 24576 MiB
+NVIDIA A30, 24576 MiB
+NVIDIA A30, 24576 MiB
+NVIDIA A30, 24576 MiB
+NVIDIA A30, 24576 MiB
+NVIDIA A30, 24576 MiB
+NVIDIA A30, 24576 MiB
+[device] cuda | ECPICK (seq CNN) | eval fixed
+[data] ../data/train_ec.csv | ../data/test_ec.csv
+레벨별 클래스: [7, 67, 212, 1889] | 총출력: 2175
+서열 one-hot 인덱스 인코딩...
+  [ensemble 1/10] 학습...
+    epoch  1/20  train_loss=0.0659  val_loss=0.0270  (0.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0273  (1.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0272  (2.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0275  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0275  (3.5분)  | val F1(macro/micro) L1=0.111/0.344 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0276  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0276  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0274  (5.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0274  (6.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0276  (7.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0276  (7.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0274  (8.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0274  (9.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0276  (9.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0274  (10.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0274  (11.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0275  (11.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0276  (12.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0273  (13.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0274  (13.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 2/10] 학습...
+    epoch  1/20  train_loss=0.0661  val_loss=0.0274  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0275  (1.4분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0277  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0275  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0275  (3.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0275  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0274  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0275  (5.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0275  (6.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0274  (7.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0274  (7.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0275  (8.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0275  (9.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0273  (9.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0276  (10.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0274  (11.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0274  (11.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0275  (12.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0274  (13.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0274  (14.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 3/10] 학습...
+    epoch  1/20  train_loss=0.0658  val_loss=0.0271  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0275  (1.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0275  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0275  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0275  (3.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0273  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0273  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0273  (5.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0274  (6.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0274  (7.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0275  (7.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0274  (8.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0275  (9.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0276  (9.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0275  (10.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0275  (11.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0275  (11.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0276  (12.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0275  (13.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0276  (14.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 4/10] 학습...
+    epoch  1/20  train_loss=0.0653  val_loss=0.0270  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0275  (1.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0273  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0276  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0273  (3.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0274  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0274  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0276  (5.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0276  (7.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0275  (8.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0275  (9.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0276  (10.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0276  (10.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0276  (11.5분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0274  (12.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0275  (12.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0274  (13.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0277  (14.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0276  (15.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0274  (15.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 5/10] 학습...
+    epoch  1/20  train_loss=0.0653  val_loss=0.0271  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0276  (1.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0276  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0276  (2.9분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0275  (3.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0276  (4.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0275  (5.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0275  (5.7분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0275  (6.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0275  (7.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0274  (7.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0273  (8.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0277  (9.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0272  (10.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0276  (10.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0276  (11.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0275  (12.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0273  (12.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0276  (13.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0274  (14.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 6/10] 학습...
+    epoch  1/20  train_loss=0.0658  val_loss=0.0272  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0273  (1.4분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0274  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0274  (2.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0275  (3.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0275  (4.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0275  (5.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0274  (5.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0275  (6.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0274  (7.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0277  (7.8분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0278  (8.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0276  (9.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0275  (9.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0275  (10.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0276  (11.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0274  (12.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0276  (12.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0275  (13.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0276  (14.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 7/10] 학습...
+    epoch  1/20  train_loss=0.0659  val_loss=0.0270  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0274  (1.4분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0275  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0274  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0276  (3.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0274  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0274  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0276  (5.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0275  (6.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0276  (7.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0276  (7.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0274  (8.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0275  (9.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0277  (9.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0274  (10.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0275  (11.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0274  (11.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0274  (12.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0274  (13.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0277  (14.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 8/10] 학습...
+    epoch  1/20  train_loss=0.0659  val_loss=0.0273  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0274  (1.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0275  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0274  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0275  (3.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0274  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0272  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0274  (5.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0275  (6.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0276  (7.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0274  (7.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0275  (8.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0273  (9.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0276  (9.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0274  (10.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0272  (11.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0273  (11.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0274  (12.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0274  (13.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0275  (14.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 9/10] 학습...
+    epoch  1/20  train_loss=0.0658  val_loss=0.0272  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0272  (1.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0276  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0276  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0274  (3.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0275  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0273  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0276  (5.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0276  (6.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0277  (7.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0275  (7.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0274  (8.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0273  (9.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0275  (9.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0276  (10.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0276  (11.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0275  (11.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0274  (12.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0274  (13.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0275  (14.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [ensemble 10/10] 학습...
+    epoch  1/20  train_loss=0.0658  val_loss=0.0269  (0.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  2/20  train_loss=0.0290  val_loss=0.0273  (1.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  3/20  train_loss=0.0287  val_loss=0.0275  (2.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  4/20  train_loss=0.0286  val_loss=0.0276  (2.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  5/20  train_loss=0.0285  val_loss=0.0275  (3.5분)  | val F1(macro/micro) L1=0.083/0.405 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  6/20  train_loss=0.0285  val_loss=0.0275  (4.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  7/20  train_loss=0.0285  val_loss=0.0276  (4.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  8/20  train_loss=0.0285  val_loss=0.0277  (5.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch  9/20  train_loss=0.0285  val_loss=0.0274  (6.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 10/20  train_loss=0.0285  val_loss=0.0272  (7.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 11/20  train_loss=0.0285  val_loss=0.0275  (7.7분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 12/20  train_loss=0.0285  val_loss=0.0274  (8.4분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.004/0.168 L3=0.000/0.000 L4=0.000/0.000
+    epoch 13/20  train_loss=0.0285  val_loss=0.0274  (9.1분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 14/20  train_loss=0.0285  val_loss=0.0275  (9.8분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 15/20  train_loss=0.0285  val_loss=0.0277  (10.5분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 16/20  train_loss=0.0285  val_loss=0.0275  (11.2분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 17/20  train_loss=0.0285  val_loss=0.0276  (11.9분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 18/20  train_loss=0.0285  val_loss=0.0276  (12.6분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 19/20  train_loss=0.0285  val_loss=0.0275  (13.3분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    epoch 20/20  train_loss=0.0285  val_loss=0.0275  (14.0분)  | val F1(macro/micro) L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000
+    val F1(macro/micro)  model[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]  ensemble[L1=0.133/0.411 L2=0.000/0.000 L3=0.000/0.000 L4=0.000/0.000]
+  [테스트 확률 저장] results/testprobs__ECPICK__seq__train_ec__fixed.npz
+  [클래스별 성능 저장] results/perclass__ECPICK__seq__train_ec__fixed.csv (2175 classes)
+  [러닝커브 저장] results/learncurve__ECPICK__seq__train_ec__fixed.csv (+ __mean.csv)
+
+=== test per-level F1 (고정 분할) ===
+ level  n_eval  n_labeled   macroP   macroR  macroF1   microP   microR  microF1
+     1    5584       5584 0.088876 0.285714 0.133032 0.311067 0.605543 0.411003
+     2    5584       5584 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+     3    5584       5584 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+     4    5584       5584 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+saved -> results/ECPICK__seq__train_ec.csv
+
+✅ 끝.
+=== ECPICK 완료 -> results/ECPICK__seq__train_ec.csv ===

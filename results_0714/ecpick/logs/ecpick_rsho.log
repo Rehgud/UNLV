@@ -1,0 +1,11 @@
+nohup: ignoring input
+[device] cuda | ECPICK (seq CNN) | eval rsho
+[data] ../data/train_ec.csv | data/EC-Bench_data/test_ec.csv
+레벨별 클래스: [7, 67, 212, 1889] | 총출력: 2175
+서열 one-hot 인덱스 인코딩...
+
+--- repeat 1/10 (train 122575 / test 30644) ---
+  [ensemble 1/1] 학습...
+    epoch  1/20  train_loss=0.3188  (0.6분)
+    epoch  2/20  train_loss=0.2119  (1.1분)
+    epoch  3/20  train_loss=0.1814  (1.6분)

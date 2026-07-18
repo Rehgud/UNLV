@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# gstack session state (not project content)
+.gstack/
+
+# Large raw/derived data (CSV data dumps, hundreds of MB) — not source, not results
+ECPICK/data/
+rebelx/data/
+
+# Large binary model outputs (raw test-probability dumps, tens of MB)
+results_0714/**/*.npz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,9 @@
+nohup: ignoring input
+[device] cuda | ECPICK (seq CNN) | eval fixed
+[data] ../data/train_ec.csv | ../data/test_ec.csv
+레벨별 클래스: [7, 67, 212, 1889] | 총출력: 2175
+서열 one-hot 인덱스 인코딩...
+  [ensemble 1/10] 학습...
+    epoch  1/20  train_loss=0.3011  val_loss=0.2216  (0.7분)  | val F1(macro/micro) L1=0.442/0.451 L2=0.156/0.199 L3=0.116/0.168 L4=0.042/0.229
+    epoch  2/20  train_loss=0.1975  val_loss=0.1836  (1.4분)  | val F1(macro/micro) L1=0.487/0.541 L2=0.256/0.329 L3=0.185/0.278 L4=0.082/0.306
+    epoch  3/20  train_loss=0.1727  val_loss=0.1694  (2.1분)  | val F1(macro/micro) L1=0.491/0.538 L2=0.249/0.316 L3=0.201/0.271 L4=0.098/0.299

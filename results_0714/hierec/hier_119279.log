@@ -1,0 +1,41 @@
+[device] cuda | nodes=2149 | level sizes=[7, 67, 211, 1864] | train=147395 test=5321
+[pos_weight] on (cap=50.0) | 평균=49.6 최대=50.0
+ep   10/300 loss=0.0223 (0.9m) | test microF1 L1=0.948 L2=0.902 L3=0.862 L4=0.677
+ep   20/300 loss=0.0223 (1.8m) | test microF1 L1=0.942 L2=0.899 L3=0.864 L4=0.662
+ep   30/300 loss=0.0221 (2.7m) | test microF1 L1=0.948 L2=0.906 L3=0.872 L4=0.683
+ep   40/300 loss=0.0222 (3.6m) | test microF1 L1=0.947 L2=0.902 L3=0.861 L4=0.663
+ep   50/300 loss=0.0221 (4.4m) | test microF1 L1=0.951 L2=0.903 L3=0.857 L4=0.655
+ep   60/300 loss=0.0221 (5.3m) | test microF1 L1=0.953 L2=0.916 L3=0.881 L4=0.693
+ep   70/300 loss=0.0221 (6.2m) | test microF1 L1=0.956 L2=0.921 L3=0.890 L4=0.702
+ep   80/300 loss=0.0221 (7.1m) | test microF1 L1=0.954 L2=0.917 L3=0.878 L4=0.675
+ep   90/300 loss=0.0221 (8.0m) | test microF1 L1=0.948 L2=0.907 L3=0.873 L4=0.655
+ep  100/300 loss=0.0222 (8.9m) | test microF1 L1=0.954 L2=0.915 L3=0.877 L4=0.659
+ep  110/300 loss=0.0222 (9.8m) | test microF1 L1=0.949 L2=0.906 L3=0.871 L4=0.664
+ep  120/300 loss=0.0222 (10.7m) | test microF1 L1=0.955 L2=0.921 L3=0.885 L4=0.669
+ep  130/300 loss=0.0221 (11.6m) | test microF1 L1=0.955 L2=0.910 L3=0.870 L4=0.668
+ep  140/300 loss=0.0223 (12.4m) | test microF1 L1=0.951 L2=0.913 L3=0.874 L4=0.655
+ep  150/300 loss=0.0222 (13.3m) | test microF1 L1=0.951 L2=0.913 L3=0.876 L4=0.674
+ep  160/300 loss=0.0222 (14.2m) | test microF1 L1=0.956 L2=0.921 L3=0.885 L4=0.669
+ep  170/300 loss=0.0222 (15.1m) | test microF1 L1=0.949 L2=0.906 L3=0.869 L4=0.655
+ep  180/300 loss=0.0222 (16.0m) | test microF1 L1=0.955 L2=0.915 L3=0.880 L4=0.675
+ep  190/300 loss=0.0222 (16.8m) | test microF1 L1=0.952 L2=0.918 L3=0.883 L4=0.672
+ep  200/300 loss=0.0222 (17.7m) | test microF1 L1=0.953 L2=0.911 L3=0.873 L4=0.642
+ep  210/300 loss=0.0223 (18.6m) | test microF1 L1=0.957 L2=0.918 L3=0.885 L4=0.689
+ep  220/300 loss=0.0223 (19.5m) | test microF1 L1=0.957 L2=0.916 L3=0.879 L4=0.670
+ep  230/300 loss=0.0222 (20.3m) | test microF1 L1=0.954 L2=0.916 L3=0.878 L4=0.677
+ep  240/300 loss=0.0222 (21.2m) | test microF1 L1=0.949 L2=0.906 L3=0.871 L4=0.652
+ep  250/300 loss=0.0222 (22.1m) | test microF1 L1=0.950 L2=0.909 L3=0.869 L4=0.640
+ep  260/300 loss=0.0222 (23.0m) | test microF1 L1=0.957 L2=0.918 L3=0.879 L4=0.676
+ep  270/300 loss=0.0222 (23.8m) | test microF1 L1=0.955 L2=0.921 L3=0.890 L4=0.682
+ep  280/300 loss=0.0222 (24.7m) | test microF1 L1=0.953 L2=0.917 L3=0.881 L4=0.659
+ep  290/300 loss=0.0223 (25.5m) | test microF1 L1=0.950 L2=0.915 L3=0.872 L4=0.657
+ep  300/300 loss=0.0222 (26.4m) | test microF1 L1=0.947 L2=0.904 L3=0.866 L4=0.669
+
+=== per-level F1 (test) ===
+ level  n_eval  macroP  macroR  macroF1  microP  microR  microF1
+     1    5321  0.8956  0.9821   0.9357  0.9130  0.9846   0.9474
+     2    5321  0.6740  0.8753   0.7435  0.8379  0.9819   0.9042
+     3    5321  0.6001  0.7832   0.6557  0.7778  0.9776   0.8663
+     4    5321  0.2924  0.4012   0.3171  0.5485  0.8583   0.6693
+saved -> results/hier_chmcnn__real.csv
+=== HierEC 완료 -> results/hier_chmcnn__real.csv ===
