@@ -15,3 +15,6 @@ results_0714/**/*.npz
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Local agent/tooling config (contains machine-specific paths & internal hostnames)
+.claude/
