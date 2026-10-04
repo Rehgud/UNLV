@@ -2,11 +2,11 @@
 
 > **Enzyme EC Number Prediction from Protein Sequence**
 > UNLV 2026 여름 연구 프로젝트 (4주) · 류도형 (Dohyeong Ryu)
-> 지도: Dr. Mingon Kang · 멘토: 백범수 · 전수형 · Phani Parsa
+> 지도: Dr. Mingon Kang
 > 계산 환경: UNLV **REBELX** HPC (NVIDIA A30) · 데이터: **EC-Bench** 고정 분할
 
 이 저장소는 **완료된 프로젝트의 최종 아카이브**입니다. 개인 담당 파트(ECPICK 재현 · C-HMCNN)의
-코드 · 실험 스냅샷 · 결과 보고서 · 수업 과제까지 전부 포함합니다.
+코드 · 실험 스냅샷 · 결과 보고서와, 직접 작성한 수업 과제 · 시험 대비 정리를 포함합니다.
 
 ---
 
@@ -70,15 +70,16 @@
 | **[report/](report/)** | ★ 최종 산출물. [`EC예측_결과보고서_0714.md`](report/EC예측_결과보고서_0714.md)(메인 보고서), [`ECPICK_결과_해석.md`](report/ECPICK_결과_해석.md) · [`HierEC_결과_해석.md`](report/HierEC_결과_해석.md)(트랙별 상세), [`Q&A_예상질문_대비.md`](report/Q&A_예상질문_대비.md), `figs/`(한글 그림) · `figs_en/`(영문 발표용 그림) |
 | **[rebelx/](rebelx/)** | 유지보수 기준 코드 본체. `ecpick/`(서열 CNN 파이프라인 + 빈도분석 + 학습곡선), `hierec/`(C-HMCNN: hierarchy/model/losses/metrics/data/train), `prep_data.py`, Slurm `*.sbatch` |
 | **[results_0714/](results_0714/)** | 2026-07-14 REBELX 실행 스냅샷(재현 기록). 실행 당시의 코드 사본 + Slurm 로그 + per-level/per-class CSV + 학습곡선 |
-| **[HW/](HW/)** | 수업 과제 HW1~HW4 (KNN / 회귀 / NN / CNN) — 노트북 · 리포트 · 결과 |
-| **[Study/](Study/)** | 강의 자료 및 시험 대비 정리 |
+| **[HW/](HW/)** | 직접 작성한 수업 과제 HW1~HW4 (KNN / 회귀 / NN / CNN) — 노트북 · 리포트 · 결과 |
+| **[Study/](Study/)** | 직접 정리한 시험 대비 자료(예상 문제·모범답안) |
 | **[EXPERIMENT_PLAN.md](EXPERIMENT_PLAN.md)** | 초기 실험 계획 |
 | `주간보고서_..._{3,4}주차_영문병기.docx` | 주간 보고서 (국문 + 영문 병기) |
 
 > 대용량 원본 데이터(EC-Bench CSV, `ECPICK/data/`, `rebelx/data/`)와 raw 확률 덤프(`*.npz`)는
-> `.gitignore`로 제외했다. 데이터셋은 팀 저장소
-> `UNLV-DNN-for-Protein-Fn-Prediction/Deep-neural-networks-for-protein-function-predictions`의
-> `data/EC-Bench_data/`에 있다.
+> `.gitignore`로 제외했다. 데이터셋은 팀 공용 저장소(비공개)의 `data/EC-Bench_data/`에 있다.
+>
+> 저작권 보호를 위해 **강의 슬라이드 · 과제 출제 문서 · 제공 데이터(MNIST 등)는 이 저장소에 포함하지 않았다.**
+> 과제 노트북 재실행에는 해당 데이터를 별도로 받아야 한다.
 
 ---
 
@@ -126,5 +127,4 @@ python rebelx/ecpick/plot_curves.py            # 학습곡선
 
 ## 6. 관련 저장소
 
-팀 공용 저장소(코드 + EC-Bench 데이터 + 최종 보고서):
-`UNLV-DNN-for-Protein-Fn-Prediction/Deep-neural-networks-for-protein-function-predictions` (private)
+팀 공용 저장소(코드 + EC-Bench 데이터 + 최종 보고서)는 비공개로 운영되었다.

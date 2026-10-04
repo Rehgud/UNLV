@@ -18,3 +18,21 @@ __pycache__/
 
 # Local agent/tooling config (contains machine-specific paths & internal hostnames)
 .claude/
+
+# Editor workspace
+*.code-workspace
+
+# Third-party / instructor material — do not publish (copyright)
+Study/*.pdf
+!Study/ML_시험대비_전체정리*.pdf
+!Study/ML_예상시험_모범답안.pdf
+Study/HW*.docx
+Study/introduction for exam.txt
+HW/HW1_Dohyeong_Ryu/Day*.pdf
+HW/HW1_Dohyeong_Ryu/KNN_Classifier.pdf
+HW/HW1_Dohyeong_Ryu/Code_KNN.html
+HW/**/MNIST_*.csv
+HW/**/*.zip
+HW/HW1_Dohyeong_Ryu/day2_homework_KNN/HW1.docx
+HW/HW2_Dohyeong_Ryu/HW2.docx
+HW/HW4_Dohyeong_Ryu/HW4 (2).docx
